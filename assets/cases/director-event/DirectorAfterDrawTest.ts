@@ -1,8 +1,8 @@
 import { _decorator, Component, Node, director, Director } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('SchedulerPerformFuncTest')
-export class SchedulerPerformFuncTest extends Component {
+@ccclass('DirectorAfterDrawTest')
+export class DirectorAfterDrawTest extends Component {
     @property(Node)
     testNode2D: Node | null = null;
 
